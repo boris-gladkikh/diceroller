@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/289367/pexels-photo-289367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+   
+}
+
+header,footer {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    text-align:center;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    border: 2px solid red;
+
+
+}
+
+a {
+    color: yellow;
+}
+
+h2 {
+    color: red;
+}
+
+header h1 {
+    color: red;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    flex-wrap: wrap;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://lh3.googleusercontent.com/proxy/agyLYZeGKhtMyCbV20NCGa0GorUcsqgpL4ayb8jQrYeEVs1753u6gk3TzdnoDd7hnOGc44fMMoEDrm2s0lN69l2d_R8MDnUk);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.diceroller {
+    background-color: black;
+    color: white;
+    width: 28%;
+    border: 1px solid white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    opacity: .70;
+    line-height: 1.2; 
+    transition: transform .2s linear;
+    transform-origin: center;
+    transform-style: preserve-3D;   
+
+}
+
+.diceroller:hover {
+    opacity: 1;
+}
+
+.output {
+    color: black;
+    font-size: 125%;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.diceinput {
+    width: 25%;
+}
+
+.gobutton, .resetbutton {
+    padding: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.gobutton:hover {
+    background-color: red;
+}
+.resetbutton:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.rollOver {
+   transform: rotate(360deg);
+
+}
