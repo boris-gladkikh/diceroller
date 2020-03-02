@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url(https://images.pexels.com/photos/289367/pexels-photo-289367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(img/forest.jpeg);
    
 }
 
@@ -49,7 +49,7 @@ header h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: url(https://lh3.googleusercontent.com/proxy/agyLYZeGKhtMyCbV20NCGa0GorUcsqgpL4ayb8jQrYeEVs1753u6gk3TzdnoDd7hnOGc44fMMoEDrm2s0lN69l2d_R8MDnUk);
+    background-image: url(img/dragons.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
